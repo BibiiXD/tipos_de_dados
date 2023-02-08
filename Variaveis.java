@@ -8,6 +8,7 @@ public class Variaveis {
  double salario=1302.00;
  float salarioMenor=1212.00f;
  long populacaoPalmital=22000;
+
  System.out.println(idade);
  System.out.println(letra);
  System.out.println(vivo);
@@ -16,4 +17,8 @@ public class Variaveis {
  System.out.println(salario);
  System.out.println(salarioMenor);
  System.out.println(populacaoPalmital);
+
+ String nome;
+ nome="Gabi";
+ System.out.println("Meu nome é " + nome + " tenho " + idade + " anos");
 }}
